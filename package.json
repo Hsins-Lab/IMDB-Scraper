@@ -1,0 +1,23 @@
+{
+  "name": "imdb-scraper",
+  "version": "1.0.0",
+  "description": "A hands-on project from the Udemy course - Learn Web Scraping with Node.js by Grohs Fabian.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hsins/udemy_IMDB-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hsins/udemy_IMDB-Scraper/issues"
+  },
+  "homepage": "https://github.com/Hsins/udemy_IMDB-Scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request-promise": "^4.2.4"
+  }
+}
