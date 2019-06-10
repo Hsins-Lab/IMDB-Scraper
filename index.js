@@ -58,7 +58,7 @@ const HEADER = {
     });
 
     // Download Images
-    let file = fs.createWriteStream(`Poster - ${title}.jpg`);
+    let file = fs.createWriteStream(`./images/Poster - ${title}.jpg`);
 
     await new Promise((resolve, reject) => {
       let stream = request({
@@ -83,8 +83,8 @@ const HEADER = {
     const json2csvParser = new Json2csvParser();
     const csv = json2csvParser.parse(moviesData);
 
-    fs.writeFileSync('./data.csv', csv, 'utf-8');
-    fs.writeFileSync('./data.json', JSON.stringify(moviesData), 'utf-8');
+    fs.writeFileSync('./data/data.csv', csv, 'utf-8');
+    fs.writeFileSync('./data/data.json', JSON.stringify(moviesData), 'utf-8');
 
     debugger;
   }
