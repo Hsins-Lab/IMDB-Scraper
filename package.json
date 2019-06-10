@@ -18,6 +18,9 @@
   "homepage": "https://github.com/Hsins/udemy_IMDB-Scraper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "fs": "0.0.1-security",
+    "json2csv": "^4.5.1",
+    "request": "^2.88.0",
     "request-promise": "^4.2.4"
   }
 }
